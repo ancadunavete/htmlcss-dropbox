@@ -1,0 +1,86 @@
+html{
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .menu1 a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.navbar .menu2 a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.auth-button a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    background-color: #d9e9f9;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.cta-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0061ff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cancel {
+    font-size: 14px;
+    color: #666;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
