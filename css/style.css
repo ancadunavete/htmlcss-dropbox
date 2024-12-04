@@ -11,14 +11,34 @@ html{
     border-bottom: 1px solid #ddd;
 }
 
-.navbar .menu1 a {
+.navbar .menu1 {
+    display: flex; 
+    flex-direction: row;
+    gap: 20px
+}
+
+.navbar .menu1 a,
+.logo {
     margin-right: 20px;
     text-decoration: none;
     color: #333;
     font-size: 14px;
+    vertical-align: middle;
 }
 
-.navbar .menu2 a {
+.navbar .menu1 a {
+    display: flex; 
+    align-items: center;
+}
+
+.navbar .menu2 {
+    display: flex; 
+    flex-direction: row;
+    gap: 20px
+}
+
+.navbar .menu2 a,
+.auth-button {
     margin-left: 20px;
     text-decoration: none;
     color: #333;
@@ -28,6 +48,9 @@ html{
 .auth-button a {
     text-decoration: none;
     margin-left: 15px;
+    background-color: #0061ff;
+    padding: 6px 6px;
+    border-radius: 4px;
 }
 
 /* Hero Section */
@@ -84,3 +107,4 @@ html{
     height: auto;
     border-radius: 8px;
 }
+
